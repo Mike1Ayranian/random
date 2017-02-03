@@ -1,7 +1,10 @@
+@import 'https://fonts.googleapis.com/css?family=Sansita';
 #button-container {
     text-align: center;
 }
 
 h1 {
     text-align: center;
-}
+    font-family: 'Sansita';
+    color: blue
+}         
