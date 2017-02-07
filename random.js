@@ -16,7 +16,7 @@ var namespace = "http://www.w3.org/2000/svg"
 function createFirstScene() {
   makeRect(0, 0, 200, 100, "red", 1)
   makeCircle(100, 50, 50, "green", 1)
-  makeLine(25, 25, 100, 100, "black", 2, 1)
+  makeLine(30, 25, 100, 100, "black", 2, 1)
 }
 
 
@@ -26,6 +26,7 @@ function createFirstScene() {
 function createSecondScene() {
   makeRect(0, 0, 200, 100, "yellow", 1)
   makeCircle(100, 50, 50, "red", 1)
+  makeLine(30, 25, 100, 100, "black", 2, 1)
 }
 
 
@@ -35,6 +36,7 @@ function createSecondScene() {
 function createThirdScene() {
   makeRect(0, 0, 200, 100, "green", 1)
   makeCircle(100, 50, 50, "yellow", 1)
+  makeLine(80, 25, 100, 100, "black", 2, 1)
 }
 
 
