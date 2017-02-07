@@ -7,4 +7,7 @@ h1 {
     text-align: center;
     font-family: 'Sansita';
     color: blue
-}         
+}
+body {
+  background-image: url("https://pbs.twimg.com/profile_images/718588095935807488/rlSOXy7a.jpg");
+}
