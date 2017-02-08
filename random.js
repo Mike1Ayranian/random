@@ -16,7 +16,11 @@ var namespace = "http://www.w3.org/2000/svg"
 function createFirstScene() {
   makeRect(0, 0, 200, 100, "red", 1)
   makeCircle(100, 50, 50, "green", 1)
-  makeLine(30, 25, 100, 100, "black", 2, 1)
+  makeLine(80, 25, 80, 50, "black", 2, 1)
+  makeLine(100, 25, 100, 50, "black", 2, 1)
+  makeLine(70, 20, 85, 15, "black", 2, 1)
+  makeLine(90, 20, 105, 20, "black", 2, 1)
+  makeLine(80, 60, 105, 60, "black", 2, 1)
 }
 
 
@@ -25,8 +29,13 @@ function createFirstScene() {
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
   makeRect(0, 0, 200, 100, "yellow", 1)
-  makeCircle(100, 50, 50, "red", 1)
-  makeLine(30, 25, 100, 100, "black", 2, 1)
+  makeCircle(100, 50, 50, "blue", 1)
+  makeLine(80, 25, 80, 50, "black", 2, 1)
+  makeLine(100, 25, 100, 50, "black", 2, 1)
+  makeLine(90, 15, 105, 20, "black", 2, 1)
+  makeLine(70, 20, 85, 15, "black", 2, 1)
+  makePolyline("80,60 90,50 100,60", "black", 1, 1)
+  makeEllipse(100, 50, 3, 5, "aquamarine", 1)
 }
 
 
@@ -34,9 +43,14 @@ function createSecondScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
-  makeRect(0, 0, 200, 100, "green", 1)
+  makeRect(0, 0, 200, 100, "aquamarine", 1)
   makeCircle(100, 50, 50, "yellow", 1)
-  makeLine(80, 25, 100, 100, "black", 2, 1)
+  makeLine(80, 25, 80, 50, "black", 2, 1)
+  makeLine(100, 25, 100, 50, "black", 2, 1)
+  makeLine(70, 15, 85, 20, "black", 2, 1)
+  makeLine(90, 20, 105, 15, "black", 2, 1)
+  makeEllipse(95, 60, 25, 7, "black", 1)
+  makeEllipse(95, 60, 22, 5, "coral", 1)
 }
 
 
