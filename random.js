@@ -11,10 +11,12 @@ var namespace = "http://www.w3.org/2000/svg"
 // makePolygon(points, fill, opacity)
 // makeText(message, x, y, fontSize, fontFamily, fill, opacity)
 // makeImage(url, x, y, width, height, opacity)
+// makeCircle(cx, cy, r, fill, opacity)
 
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
   makeRect(0, 0, 200, 100, "red", 1)
+  makeCircle(100, 50, 51, "black", 1)
   makeCircle(100, 50, 50, "green", 1)
   makeLine(80, 25, 80, 50, "black", 2, 1)
   makeLine(100, 25, 100, 50, "black", 2, 1)
@@ -29,6 +31,7 @@ function createFirstScene() {
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
   makeRect(0, 0, 200, 100, "yellow", 1)
+  makeCircle(100, 50, 51, "black", 1)
   makeCircle(100, 50, 50, "blue", 1)
   makeLine(80, 25, 80, 50, "black", 2, 1)
   makeLine(100, 25, 100, 50, "black", 2, 1)
@@ -44,6 +47,7 @@ function createSecondScene() {
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
   makeRect(0, 0, 200, 100, "aquamarine", 1)
+  makeCircle(100, 50, 51, "black", 1)
   makeCircle(100, 50, 50, "yellow", 1)
   makeLine(80, 25, 80, 50, "black", 2, 1)
   makeLine(100, 25, 100, 50, "black", 2, 1)
